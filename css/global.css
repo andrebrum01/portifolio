@@ -1,0 +1,35 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    max-width: 100vw;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html , body{
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+:root{
+    --primaryColor: #0a89ff;
+    --whiteColor: #ffffff;
+    --blackColor: #0a0000;
+}
+
+a{
+    color: unset;
+    text-decoration: none;
+    cursor: pointer;
+}
+img{
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+    pointer-events: none;
+    
+}
+button{
+    cursor: pointer;
+}

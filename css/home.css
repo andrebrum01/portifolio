@@ -1,0 +1,107 @@
+.home{
+    min-height: 80vh;
+    background-color: var(--whiteColor);
+    display: grid;
+    grid-template-areas: "aside nav"
+    "aside home";
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto 1fr;
+}
+
+.white{
+    background-color: var(--whiteColor);
+}
+.primary{
+    background-color: var(--primaryColor);
+}
+div.rectV{
+    width: 2px;
+    height: 1em;
+}
+div.rectH{
+    width: 2em;
+    height: 2px;
+}
+
+.home .aside{
+    grid-area: aside;
+    background-color: var(--primaryColor);
+    width: 10vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    flex-direction: column;
+    color: var(--whiteColor);
+    font-size: 1.2em;
+}
+.home .aside i{
+    padding: 8px;
+    cursor: pointer;
+}
+
+.home .aside i.instagram:hover{
+    color: #e798d6;
+}
+.home .aside i.linkedin:hover{
+    color: #c3d9f1;
+}
+.home .aside i.github:hover{
+    color: #511dca;
+}
+.home .container{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 16px;
+    padding: 32px;
+}
+.home .container .desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    font-weight: bold;
+    padding: 16px;
+    gap: 16px;
+}
+.home .container .desc .subtitle{
+    display: flex;
+    gap: 8px;
+    /* justify-content: center; */
+    align-items: center;
+    color: var(--primaryColor);
+    font-size: small;
+}
+.home .container .desc .title{
+    font-size: 36px;
+    line-height: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.home .container .desc button{
+    padding: 16px 32px;
+    border-radius: 5px;
+    width: fit-content;
+    height: fit-content;
+    border: none;
+    background-color:  var(--primaryColor);
+    color: var(--whiteColor);
+    font-weight: bold;
+}
+
+.hom .container .containerImg{
+    width: 100%;
+    height: 100%;
+}
+.home .container img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    max-width: 313px;
+    height: auto;
+    aspect-ratio: 202 / 313;
+    object-fit: contain;
+
+}
