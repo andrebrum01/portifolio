@@ -33,3 +33,19 @@ img{
 button{
     cursor: pointer;
 }
+
+
+.white{
+    background-color: var(--whiteColor);
+}
+.primary{
+    background-color: var(--primaryColor);
+}
+div.rectV{
+    width: 2px;
+    height: 1em;
+}
+div.rectH{
+    width: 2em;
+    height: 2px;
+}

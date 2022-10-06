@@ -8,20 +8,6 @@
     grid-template-rows: auto 1fr;
 }
 
-.white{
-    background-color: var(--whiteColor);
-}
-.primary{
-    background-color: var(--primaryColor);
-}
-div.rectV{
-    width: 2px;
-    height: 1em;
-}
-div.rectH{
-    width: 2em;
-    height: 2px;
-}
 
 .home .aside{
     grid-area: aside;
@@ -53,7 +39,7 @@ div.rectH{
 }
 .home .container{
     display: grid;
-    grid-template-columns: 3fr 2fr;
+    grid-template-columns: 1fr 1fr;
     gap: 16px;
     padding: 32px;
 }
@@ -91,17 +77,20 @@ div.rectH{
     font-weight: bold;
 }
 
-.hom .container .containerImg{
+.home .container .containerImg{
     width: 100%;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.home .container img{
+.home .container .containerImg img{
     display: block;
     width: 100%;
-    height: 100%;
-    max-width: 313px;
-    height: auto;
-    aspect-ratio: 202 / 313;
+    /* height: 100%; */
+    /* max-width: 313px; */
+    /* height: auto; */
+    /* aspect-ratio: 202 / 313; */
     object-fit: contain;
-
+    max-height: 350px;
 }
