@@ -1,0 +1,26 @@
+.skill{
+    min-height: 20vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.skill .infoSkill{
+    padding: 2vw 5vw;
+}
+
+.skill .infoSkill .title{
+    font-size: 1.3rem;
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;    
+    gap: 8px
+}
+.skill .infoSkill .title .rectH{
+    width: 2em;
+}
+.skill .infoSkill .desc{
+    padding-top: 8px;
+    font-size: 12px;
+    font-weight: bold;
+}
